@@ -1,0 +1,8 @@
+# Default ignored files
+/workspace.xml
+*.xml
+*.iml
+*.bat
+*.ps1
+*.exe
+*.cfg
