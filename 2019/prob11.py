@@ -1,8 +1,8 @@
 
 # Output sample
 '''
-7  +-----+ 
-6  |     | 
+7            +-----+ 
+6            |     | 
 5   /\       |     | 
 4  +-+       |     | 
 3  | | +-+   | ____|__    +---+ 
@@ -19,10 +19,10 @@
 0   +-------+           +-+---+ 
 1  \ | | |   /         \  |   | 
 5   /\       |     | 
-7  +-----+ 
+7            +-----+ 
 3  | | +-+   | ____|__    +---+ 
 4  +-+       |     | 
-6  |     |
+6            |     |
 '''
 path = '2019/2019data/prob11-1-in.txt'
 handle = open(path) # open the file handle
@@ -34,8 +34,8 @@ line_1 = lines[0]
 width = line_1.split()[0]
 num_lines = line_1.split()[1]
 
-print(width)
-print(num_lines)
+# print(width)
+# print(num_lines)
 pic_list = lines[1:]
 pic_list.sort()
 for l in reversed(pic_list):
