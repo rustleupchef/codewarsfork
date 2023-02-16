@@ -24,7 +24,9 @@
 4  +-+       |     | 
 6            |     |
 '''
-path = '2019/2019data/prob11-1-in.txt'
+
+#read in the garbled text file
+path = '2019/2019data/prob11-3-in.txt'
 handle = open(path) # open the file handle
 full_text = handle.read()
 # print(full_text)
@@ -37,9 +39,15 @@ num_lines = line_1.split()[1]
 # print(width)
 # print(num_lines)
 pic_list = lines[1:]
+for i in range(len(pic_list)):
+    loc = pic_list[i].find(" ")
+    ptup = (int(pic_list[i][:loc]), pic_list[i][loc:])
+    # print(ptup)
+    pic_list[i] = ptup
 pic_list.sort()
 for l in reversed(pic_list):
-    print(l)
+    s= str(l[0]) + l[1]
+    print(s)
 nums = '0123456789'
 bottom = ''
 index = 0
