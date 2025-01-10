@@ -1,0 +1,6 @@
+W
+UnderTheCounter.txt
+OnTheDogsCollar.txt
+InsideTheCupboard.txt
+OnTheTable.txt
+END

@@ -1,0 +1,5 @@
+A
+InTheCar.txt
+InTheBackpack.txt
+OnTheFridge.txt
+END
