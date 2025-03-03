@@ -37,4 +37,3 @@ for line in open(0):
     res = solve(n)
     if len(res) > 1:
         solution(n, res[1:])
-
